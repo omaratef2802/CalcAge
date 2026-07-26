@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #edf4ff, #d8e9ff);
+}
+
+.parent {
+  width: 95%;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+}
+
+.left {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  padding: 40px;
+}
+
+.left h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+input,
+select {
+  text-align: center;
+  font-size: 16px;
+  background: white;
+  padding: 10px;
+  width: 100%;
+  border: 2px solid transparent;
+  height: 3.3rem;
+  border-radius: 0.75rem;
+  transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #93c5fd;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+}
+
+input:disabled {
+  background: #d6d6d6;
+  cursor: not-allowed;
+}
+
+#btn-age {
+  width: 90%;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  margin: 1.2rem;
+  border: none;
+  font-size: 18px;
+  color: #2563eb;
+  background: white;
+  transition: 0.3s;
+}
+
+#btn-age:hover {
+  background: #eff6ff;
+  transform: translateY(-3px);
+}
+
+.right {
+  background: linear-gradient(135deg, #ffffff, #eef5ff);
+}
+
+.right h1 {
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.result-card {
+  width: 150px;
+  padding: 30px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.15);
+  transition: 0.3s;
+}
+
+.result-card:hover {
+  transform: translateY(-8px);
+}
+
+.result-card span {
+  display: block;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.result-card p {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #666;
+  font-weight: 500;
+}
